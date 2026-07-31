@@ -1,8 +1,28 @@
 aid: netsmart-technologies
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netsmart-technologies.png
 name: Netsmart Technologies
-description: 'Netsmart Technologies is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Netsmart Technologies is a healthcare software and services company serving
+  community-based care providers across human services, post-acute care, home care and
+  hospice, public sector, and physical rehabilitation. Its CareFabric platform unifies
+  electronic health records (EHR) such as CareRecord, myAvatar, and myUnity with workforce
+  management, revenue cycle, analytics, and interoperability tooling. Netsmart is a founding
+  member of the Carequality interoperability collaborative and became the first EHR built for
+  human services and post-acute care to be designated a Qualified Health Information Network
+  (QHIN) under TEFCA, exchanging clinical data via FHIR-based standards. The company publishes
+  no public developer portal or API documentation; integration is delivered through its
+  CareConnect interoperability services, the Netsmart Marketplace partner program, and direct
+  engagement rather than a self-service public API.'
 url: https://raw.githubusercontent.com/api-evangelist/netsmart-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +32,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Electronic Health Records
+- Interoperability
+- FHIR
+- Post-Acute Care
+- Human Services
+- Behavioral Health
+- QHIN
+- TEFCA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/netsmart-technologies-domain-security.yml
+- type: Website
+  url: https://www.ntst.com
+- type: Marketplace
+  url: https://www.ntst.com/marketplace
+- type: Support
+  url: https://www.ntst.com/company/about-us/contact-us
+- type: Blog
+  url: https://www.ntst.com/blog
+- type: PrivacyPolicy
+  url: https://www.ntst.com/privacy-policy
+- type: TermsOfService
+  url: https://www.ntst.com/terms-of-use
+- type: Interoperability
+  url: https://www.ntst.com/capabilities/interoperability
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
