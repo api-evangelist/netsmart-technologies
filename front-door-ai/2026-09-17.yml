@@ -1,0 +1,29 @@
+# Front Door AI Index — netsmart-technologies — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: netsmart-technologies
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.ntst.com
+  final_host: www.ntst.com
+  ownership: own
+  owner: netsmart-technologies
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 5.4
+  words: 3887
+  tiers:
+    agentic: 0
+    core: 21
+    model: 0
+  ambiguous: 15
+  top_terms:
+    AI: 20
+    automation: 11
+    intelligence: 2
+    predictive: 2
+    artificial intelligence: 1
